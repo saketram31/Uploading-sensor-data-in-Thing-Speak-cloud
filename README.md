@@ -71,7 +71,7 @@ Automatically act on your data and communicate using third-party services like T
 
 
 # PROGRAM:
- 
+``` 
 #include "ThingSpeak.h"
 #include <WiFi.h>
 #include "DHT.h"
@@ -125,7 +125,7 @@ ThingSpeak.setField(HumidityField,humidity);
 ThingSpeak.writeFields(myChannelField,myWriteAPIKey);
 delay(5000);
 }
-
+```
 # CIRCUIT DIAGRAM:
 ![IMG-20251015-WA0014 1](https://github.com/user-attachments/assets/23cc1a85-e2c0-4d5c-94aa-f05fd5940f8e)
 
